@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+APP_NAME = 'tp_subject_validators'
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -37,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'edc_base.apps.AppConfig',
+    'edc_device.apps.AppConfig',
+    'tp_subject_validators.apps.AppConfig'
 ]
 
 MIDDLEWARE = [
