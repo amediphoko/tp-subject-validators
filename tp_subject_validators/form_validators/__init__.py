@@ -1,1 +1,3 @@
+from .community_engagement_form_validation import CommunityEngagementFormValidator
+from .demographics_form_validation import DemographicsFormValidator
 from .subject_consent_form_validation import SubjectConsentFormValidator
